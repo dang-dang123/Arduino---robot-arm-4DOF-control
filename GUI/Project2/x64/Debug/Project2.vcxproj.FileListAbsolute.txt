@@ -1,0 +1,4 @@
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\x64\Debug\Project2.vcxproj.AssemblyReference.cache
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\x64\Debug\Project2.MyForm.resources
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\x64\Debug\Project2.vcxproj.GenerateResource.cache
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\x64\Debug\Project2.exe

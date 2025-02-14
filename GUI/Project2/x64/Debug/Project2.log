@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\MyForm.h(765,22): warning C4101: 'ex': unreferenced local variable
+  (compiling source file 'MyForm.cpp')
+  
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\MyForm.cpp(4,6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project2.vcxproj -> E:\Tai lieu hoc tap\Visual studio\C++\Project2\x64\Debug\Project2.exe

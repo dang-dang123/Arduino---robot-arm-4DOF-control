@@ -1,0 +1,9 @@
+﻿  MyForm.cpp
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\MyForm.h(159,23): error C2275: 'System::Convert': expected an expression instead of a type
+  (compiling source file 'MyForm.cpp')
+  
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\MyForm.h(170,14): error C2059: syntax error: '->'
+  (compiling source file 'MyForm.cpp')
+  
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\MyForm.cpp(6,6): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+E:\Tai lieu hoc tap\Visual studio\C++\Project2\Project2\MyForm.cpp(8,15): warning C4551: function call missing argument list
