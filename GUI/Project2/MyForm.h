@@ -94,9 +94,9 @@ namespace Project1 {
 
 
 
-	private: System::Windows::Forms::Label^ label5;
-	private: System::Windows::Forms::Label^ label6;
-	private: System::Windows::Forms::Label^ label7;
+
+
+
 
 
 
@@ -120,7 +120,7 @@ namespace Project1 {
 	private: System::Windows::Forms::Button^ btnStop;
 
 private: System::ComponentModel::BackgroundWorker^ backgroundWorker1;
-private: System::Windows::Forms::Button^ btnshoulder_up;
+
 private: System::Diagnostics::PerformanceCounter^ performanceCounter1;
 
 
@@ -171,9 +171,6 @@ private: System::Diagnostics::PerformanceCounter^ performanceCounter1;
 			this->btnWristDown = (gcnew System::Windows::Forms::Button());
 			this->btnDetectObject = (gcnew System::Windows::Forms::Button());
 			this->txtStatus = (gcnew System::Windows::Forms::Label());
-			this->label5 = (gcnew System::Windows::Forms::Label());
-			this->label6 = (gcnew System::Windows::Forms::Label());
-			this->label7 = (gcnew System::Windows::Forms::Label());
 			this->lblStatus = (gcnew System::Windows::Forms::Label());
 			this->lblServo = (gcnew System::Windows::Forms::Label());
 			this->txtServoValue = (gcnew System::Windows::Forms::TextBox());
@@ -183,7 +180,6 @@ private: System::Diagnostics::PerformanceCounter^ performanceCounter1;
 			this->btnClearPositions = (gcnew System::Windows::Forms::Button());
 			this->btnStop = (gcnew System::Windows::Forms::Button());
 			this->backgroundWorker1 = (gcnew System::ComponentModel::BackgroundWorker());
-			this->btnshoulder_up = (gcnew System::Windows::Forms::Button());
 			this->performanceCounter1 = (gcnew System::Diagnostics::PerformanceCounter());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->performanceCounter1))->BeginInit();
 			this->SuspendLayout();
@@ -347,44 +343,6 @@ private: System::Diagnostics::PerformanceCounter^ performanceCounter1;
 			this->txtStatus->Text = L"Trạng Thái";
 			this->txtStatus->Click += gcnew System::EventHandler(this, &MainForm::label1_Click);
 			// 
-			// label5
-			// 
-			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label5->Location = System::Drawing::Point(474, 299);
-			this->label5->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label5->Name = L"label5";
-			this->label5->Size = System::Drawing::Size(153, 16);
-			this->label5->TabIndex = 18;
-			this->label5->Text = L"Từ Ngọc Đăng 20216086";
-			this->label5->Click += gcnew System::EventHandler(this, &MainForm::label5_Click);
-			// 
-			// label6
-			// 
-			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label6->Location = System::Drawing::Point(474, 273);
-			this->label6->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label6->Name = L"label6";
-			this->label6->Size = System::Drawing::Size(136, 16);
-			this->label6->TabIndex = 19;
-			this->label6->Text = L"Lê Đức Anh 20210051";
-			this->label6->Click += gcnew System::EventHandler(this, &MainForm::label6_Click);
-			// 
-			// label7
-			// 
-			this->label7->AutoSize = true;
-			this->label7->Font = (gcnew System::Drawing::Font(L"Times New Roman", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->label7->Location = System::Drawing::Point(474, 324);
-			this->label7->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
-			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(157, 16);
-			this->label7->TabIndex = 20;
-			this->label7->Text = L"MON RACHNA 20210992";
-			// 
 			// lblStatus
 			// 
 			this->lblStatus->AutoSize = true;
@@ -479,22 +437,11 @@ private: System::Diagnostics::PerformanceCounter^ performanceCounter1;
 			this->btnStop->UseVisualStyleBackColor = true;
 			this->btnStop->Click += gcnew System::EventHandler(this, &MainForm::btnStop_Click);
 			// 
-			// btnshoulder_up
-			// 
-			this->btnshoulder_up->Location = System::Drawing::Point(376, 12);
-			this->btnshoulder_up->Name = L"btnshoulder_up";
-			this->btnshoulder_up->Size = System::Drawing::Size(86, 59);
-			this->btnshoulder_up->TabIndex = 30;
-			this->btnshoulder_up->Text = L"up";
-			this->btnshoulder_up->UseVisualStyleBackColor = true;
-			this->btnshoulder_up->Click += gcnew System::EventHandler(this, &MainForm::btnup_Click);
-			// 
 			// MainForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(642, 366);
-			this->Controls->Add(this->btnshoulder_up);
 			this->Controls->Add(this->btnStop);
 			this->Controls->Add(this->btnClearPositions);
 			this->Controls->Add(this->btnRePlay);
@@ -503,9 +450,6 @@ private: System::Diagnostics::PerformanceCounter^ performanceCounter1;
 			this->Controls->Add(this->txtServoValue);
 			this->Controls->Add(this->btnSetServo);
 			this->Controls->Add(this->lblStatus);
-			this->Controls->Add(this->label7);
-			this->Controls->Add(this->label6);
-			this->Controls->Add(this->label5);
 			this->Controls->Add(this->txtStatus);
 			this->Controls->Add(this->btnDetectObject);
 			this->Controls->Add(this->btnWristDown);

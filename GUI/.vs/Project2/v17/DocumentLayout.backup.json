@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\Project2\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|solutionrelative:Project2\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\Project2\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
       "RelativeMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|solutionrelative:Project2\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\Project2\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|solutionrelative:Project2\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D62F3D21-3BCE-49C8-9D68-386678EE3F70}|Project2\\Project2.vcxproj|E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\Project2\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MyForm.h",
               "DocumentMoniker": "E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\Project2\\MyForm.h",
               "RelativeDocumentMoniker": "Project2\\MyForm.h",
@@ -51,12 +51,11 @@
               "RelativeToolTip": "Project2\\MyForm.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T03:17:59.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T03:17:59.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MyForm.h [Design]",
               "DocumentMoniker": "E:\\Tai lieu hoc tap\\Visual studio\\C\u002B\u002B\\Project2\\Project2\\MyForm.h",
               "RelativeDocumentMoniker": "Project2\\MyForm.h",
